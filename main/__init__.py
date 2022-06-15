@@ -12,7 +12,7 @@ app.config['WTF_CSRF_ENABLED'] = False
 app.config['WTF_CSRF_CHECK_DEFAULT'] = False
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'gp=ac123'
+app.config['MYSQL_PASSWORD'] = 'gp@lost123'
 app.config['MYSQL_DB'] = 'data_'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 mysql = MySQL(app)

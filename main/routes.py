@@ -130,11 +130,11 @@ def delete_user():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    '''
+    """
     Login users
     :request body: phone_number, password
     :return: responses with a message telling whether the login is successful or there is any invalid data
-    '''
+    """
     data = request.json
     phone_number, password = data.get('phone_number'), data.get('password')
 
